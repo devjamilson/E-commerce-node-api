@@ -10,8 +10,93 @@ require('dotenv/config')
 const produto =[ 
     {
         id: 1,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
         nome: 'celular',
         preco: 140,
+    },
+    {
+        id: 2,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 3,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 4,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 140,
+    },
+    {
+        id: 5,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 6,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 1,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 140,
+    },
+    {
+        id: 2,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 3,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 4,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 140,
+    },
+    {
+        id: 5,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 6,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 4,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 140,
+    },
+    {
+        id: 5,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
+    },
+    {
+        id: 6,
+        src: 'https://images-americanas.b2w.io/produtos/01/00/img/4533174/8/4533174812_1GG.jpg',
+        nome: 'celular',
+        preco: 322,
     }
 ]
 
