@@ -1,6 +1,7 @@
 const {Router} = require('express')
 const UserController = require('../controllers/UserController/index')
 const LoginController = require('../controllers/Login/index')
+const ProductController = require('../controllers/Product/index')
 const routes = Router()
 
 routes.get('/', (req, res)=>{
@@ -15,24 +16,12 @@ routes.get('/users/:user_id', UserController.getUserById)
 routes.post('/login',LoginController.createSession)
 
 
-routes.post('/products/:user_id',(req, res)=>{
-    res.send('Olá mundo')
-})
-routes.get('/products/:user_id',(req, res)=>{
-    res.send('Olá mundo')
-})
-routes.patch('/products/:user_id',(req, res)=>{
-    res.send('Olá mundo')
-})
-routes.get('/products/:product_id',(req, res)=>{
-    res.send('Olá mundo')
-})
-routes.get('/products',(req, res)=>{
-    res.send('Olá mundo')
-})
-routes.delete('/products/:user_id/:product_id',(req, res)=>{
-    res.send('Olá mundo')
-})
+routes.post('/products/:user_id',ProductController.createProduct)
+routes.get('/products/:user_id',ProductController.getUserProducts)
+routes.patch('/products/:user_id',ProductController.updateProduct)
+routes.get('/products/:product_id',ProductController.getProducById)
+routes.get('/products',ProductController.getProducts)
+routes.delete('/products/:user_id/:product_id',ProductController.deleteProduct)
 
 
 

@@ -25,10 +25,10 @@ const UserController = {
         const {user_id} = req.params
 
         try{
-           const user = await User.findbyId(user_id)
+           const user = await User.findById(user_id)
            return res.status(200).json(user)
         }catch(err){
-            return res.status(401).json(err)
+            return res.status(400).send(err)
         }
     }
 }
